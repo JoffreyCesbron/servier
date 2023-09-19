@@ -1,3 +1,5 @@
+## Projet en Python
+
 ### Etapes pour effectuer l'exercice:
 
 1) Lire l'énoncé
@@ -5,13 +7,13 @@
 3) Modéliser sur le papier le fichier JSON de sortie semblant le plus approprié avec des examples
 Au début je pensais faire un fichier JSON plutôt de ce style:
 ![img.png](img/img.png)
-Je pense que finalement, c'est un fichier JSON avec une liste de "Nodes" et "Edges" qui est attendu. 
+Finalement je pense que c'est un fichier JSON avec une liste de "Nodes" et "Edges" qui est attendu. 
 4) Penser à la structure du projet répondant au besoin de l'exercice.
 5) Coder et tester
 
 ### Faire tourner le code
 
-Le fichier "output.json" est à la racine du projet si vous souhaitez regarder sans lancer.
+Le fichier "output.json" est à la racine du projet si vous souhaitez regarder le résultat sans lancer.
 
 Deux solutions pour lancer l'application principale:
 
@@ -28,7 +30,7 @@ Le fichier "output.json" créé se trouve à la racine du projet.
 
 #### Lancer le code via docker
 
-Un fichier docker se trouve à la racine du projet.
+Un fichier Dockerfile se trouve à la racine du projet.
 
 Il faut se placer à la racine du répo et puis lancer les commandes suivantes:
 ```
@@ -52,19 +54,20 @@ psychopharmacology              2
 
 ### Notes
 
-L'architecture qui a été choisi est simple car le usecase l'est aussi. 
+L'architecture est simple étant donné le usecase. Les fonctions dans common peuvent être utilisées sur d'autre pipeline.
+Le reste est plutôt spécifique à la pipeline.
 
 Habituellement, pour ce genre de projet l'architecture "Médaillon" (https://www.databricks.com/glossary/medallion-architecture) est adopté. 
 
-L'orchestrateur va lancer une première étape qui va enregistrer les fichiers raws en base. Ensuite l'étape suivante est lancée, on charge les fichiers "raw" et les données sont filtrées, nettoyées et enrichies puis sauvegardés.
+L'orchestrateur va lancer une première étape qui va enregistrer les fichiers "raw" en base. Ensuite l'étape suivante est lancée, on charge les fichiers "raw" et les données sont filtrées, nettoyées et enrichies puis sauvegardées.
 Enfin l'orchestrateur va lancer la dernière étape qui va charger les fichiers de la 2ème couche pour finaliser avec les règles métiers finale.
 
-A chaque étape une discussion avec le business analyst est faite pour déterminer les règles adaptées par l'entreprise.
+A chaque étape une discussion avec le business analyst est faite pour déterminer les règles adoptées par l'entreprise (uniformisation etc...).
 
 J'ai choisi de supprimer les lignes "Nan" ou vides, mais ce n'est peut-être pas la meilleure solution. J'ai aussi supprimé les chaînes "/x...".
 
 Le cas d'utilisation est assez simple, c'est pourquoi je n'ai pas opté pour une approche orientée objet. J'ai décidé de simplement placer les bonnes fonctions dans des modules explicites.
-Peut-être faut-il empaqueter le projet, créer un dépôt python-common ? Cela dépend du contexte.
+Peut-être faut-il créer un package ou même créer un repo python-common ? Cela dépend du contexte.
 
 
 ### RAF
@@ -93,6 +96,8 @@ Plusieurs solutions sont possibles:
 - il peut être plus simple de traiter les données par mini-batch.
 - utiliser la lecture fractionnée avec pandas, ou utiliser les daskframe.
 
+
+## SQL
 
 ### Exercice SQL
 
