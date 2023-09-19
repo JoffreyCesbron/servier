@@ -15,6 +15,10 @@ Finalement je pense que c'est un fichier JSON avec une liste de "Nodes" et "Edge
 
 Le fichier "output.json" est à la racine du projet si vous souhaitez regarder le résultat sans lancer.
 
+On y retrouve 2 listes:
+- nodes: liste des noeuds (pubmed, drug, clinical_trial et journal) avec un id et un label si existant.
+- edges: la liste des arrêtes (de drug vers un noeud d'un autre type), avec la date_mention.
+
 Deux solutions pour lancer l'application principale:
 
 #### Lancer directement le code Python
