@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "servier"
+version = "0.1.0"
+description = ""
+authors = ["JoffreyCesbron <44499758+JoffreyCesbron@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.0"
+pytest = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

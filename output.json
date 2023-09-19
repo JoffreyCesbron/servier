@@ -1,0 +1,285 @@
+[
+    {
+        "nodes": [
+            {
+                "id": "a04ad",
+                "label": "diphenhydramine",
+                "type": "drugs"
+            },
+            {
+                "id": "s03aa",
+                "label": "tetracycline",
+                "type": "drugs"
+            },
+            {
+                "id": "v03ab",
+                "label": "ethanol",
+                "type": "drugs"
+            },
+            {
+                "id": "a03ba",
+                "label": "atropine",
+                "type": "drugs"
+            },
+            {
+                "id": "a01ad",
+                "label": "epinephrine",
+                "type": "drugs"
+            },
+            {
+                "id": "6302001",
+                "label": "isoprenaline",
+                "type": "drugs"
+            },
+            {
+                "id": "r01ad",
+                "label": "betamethasone",
+                "type": "drugs"
+            },
+            {
+                "id": "NCT01967433",
+                "label": "Use of Diphenhydramine as an Adjunctive Sedative for Colonoscopy in Patients Chronically on Opioids",
+                "type": "clinical_trial"
+            },
+            {
+                "id": "NCT04189588",
+                "label": "Phase 2 Study IV QUZYTTIR\u2122 (Cetirizine Hydrochloride Injection) vs V Diphenhydramine",
+                "type": "clinical_trial"
+            },
+            {
+                "id": "NCT04237091",
+                "label": "Feasibility of a Randomized Controlled Clinical Trial Comparing the Use of Cetirizine to Replace Diphenhydramine in the Prevention of Reactions Related to Paclitaxel",
+                "type": "clinical_trial"
+            },
+            {
+                "id": "NCT04153396",
+                "label": "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or \\xc3\\xb1 Laminectomy",
+                "type": "clinical_trial"
+            },
+            {
+                "id": "NCT04188184",
+                "label": "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy",
+                "type": "clinical_trial"
+            },
+            {
+                "id": 1,
+                "label": "A 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations",
+                "type": "pubmed"
+            },
+            {
+                "id": 2,
+                "label": "An evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy.",
+                "type": "pubmed"
+            },
+            {
+                "id": 3,
+                "label": "Diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning.",
+                "type": "pubmed"
+            },
+            {
+                "id": 4,
+                "label": "Tetracycline Resistance Patterns of Lactobacillus buchneri Group Strains.",
+                "type": "pubmed"
+            },
+            {
+                "id": 5,
+                "label": "Appositional Tetracycline bone formation rates in the Beagle.",
+                "type": "pubmed"
+            },
+            {
+                "id": 6,
+                "label": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.",
+                "type": "pubmed"
+            },
+            {
+                "id": 7,
+                "label": "The High Cost of Epinephrine Autoinjectors and Possible Alternatives.",
+                "type": "pubmed"
+            },
+            {
+                "id": 8,
+                "label": "Time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained ROSC after traumatic out-of-hospital cardiac arrest.",
+                "type": "pubmed"
+            },
+            {
+                "id": "journal of food protection",
+                "label": "",
+                "type": "journal"
+            },
+            {
+                "id": "the journal of allergy and clinical immunology. in practice",
+                "label": "",
+                "type": "journal"
+            },
+            {
+                "id": "h\u00f4pitaux universitaires de gen\u00e8ve",
+                "label": "",
+                "type": "journal"
+            },
+            {
+                "id": "american journal of veterinary research",
+                "label": "",
+                "type": "journal"
+            },
+            {
+                "id": "journal of emergency nursing",
+                "label": "",
+                "type": "journal"
+            },
+            {
+                "id": "psychopharmacology",
+                "label": "",
+                "type": "journal"
+            },
+            {
+                "id": "the journal of pediatrics",
+                "label": "",
+                "type": "journal"
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "source": "diphenhydramine",
+                "target": 1,
+                "date_mention": "2019/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "journal of emergency nursing",
+                "date_mention": "2019/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": 2,
+                "date_mention": "2019/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "journal of emergency nursing",
+                "date_mention": "2019/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": 3,
+                "date_mention": "2019/01/02"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "the journal of pediatrics",
+                "date_mention": "2019/01/02"
+            },
+            {
+                "source": "tetracycline",
+                "target": 4,
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "tetracycline",
+                "target": "journal of food protection",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "tetracycline",
+                "target": 5,
+                "date_mention": "2020/01/02"
+            },
+            {
+                "source": "tetracycline",
+                "target": "american journal of veterinary research",
+                "date_mention": "2020/01/02"
+            },
+            {
+                "source": "tetracycline",
+                "target": 6,
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "tetracycline",
+                "target": "psychopharmacology",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "ethanol",
+                "target": 6,
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "ethanol",
+                "target": "psychopharmacology",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "epinephrine",
+                "target": 7,
+                "date_mention": "2020/02/01"
+            },
+            {
+                "source": "epinephrine",
+                "target": "the journal of allergy and clinical immunology. in practice",
+                "date_mention": "2020/02/01"
+            },
+            {
+                "source": "epinephrine",
+                "target": 8,
+                "date_mention": "2020/03/01"
+            },
+            {
+                "source": "epinephrine",
+                "target": "the journal of allergy and clinical immunology. in practice",
+                "date_mention": "2020/03/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "NCT01967433",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "journal of emergency nursing",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "NCT04189588",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "journal of emergency nursing",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "NCT04237091",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "diphenhydramine",
+                "target": "journal of emergency nursing",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "betamethasone",
+                "target": "NCT04153396",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "betamethasone",
+                "target": "h\u00f4pitaux universitaires de gen\u00e8ve",
+                "date_mention": "2020/01/01"
+            },
+            {
+                "source": "epinephrine",
+                "target": "NCT04188184",
+                "date_mention": "2020/04/27"
+            },
+            {
+                "source": "epinephrine",
+                "target": "journal of emergency nursing",
+                "date_mention": "2020/04/27"
+            }
+        ]
+    }
+]
